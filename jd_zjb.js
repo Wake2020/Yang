@@ -16,7 +16,7 @@ const jdCookieNode = $.isNode() ? require('./jdCookie.js') : '';
 
 //IOS等用户直接用NobyDa的jd cookie
 let cookiesArr = [], cookie = '', message;
-let InviterPin = '0rfDAxWKccK2U2K/xn23AQ=='; //
+let InviterPin = '0rfDAxWKccK2U2K/xn23AQ==,pMq0WCbwvnlFKupkzdvlPw==,PFHNhJ28NOKJ8IOUadXCgl59MNhV0EUutsqnQsVoH3o=,ArtdNt7JuDHBjbfZpCqfqw==,53cx7SGLLjQiOjTHJORK4w==,UfiAT4JNgL2ZDGoizLyyQxCbS+QWY1mg1CBxkO5SEVw=,FtdsJXSuhZMu5c7fYFqkcg==,ZWQ+GBqd1z4p6CsJ6gmQUA==,qCRnTQ1jOyd7fwvsa5TGeBl0Kr9j3KdoyQQPywI6bfI=,8VUoS/H9rfWx9cH81YPlIg==,EXQa7Cx2BxLcbFwcHzPvCGyIRusuRdZVpApMITAHV38=,pG26xRydrTPDUq0iHwR3RA==,XpoIjjXL/AC+BnEuBrnbRObfVwqdHy3MZn3XPPf/jC4=,TRkiasavb4IuJehdGFO5JA==,+N8t2FuPf38PxUPN6EuafA==,qh2dXsWcxrDSpLO1lhKB3w=='; //
 
 
 if (process.env.InviterPin) {
